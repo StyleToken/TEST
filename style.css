@@ -1,5 +1,6 @@
 body {
 	
+<<<<<<< HEAD
 	background-color : green;
 	
 }
@@ -7,5 +8,44 @@ body {
 p {
 	
 	font-size : 22px;
+=======
+	background-color : blue;
+	font-family : "Courier New", Courier, monospace;
+	
+	font-weight : bold;
+	
+}
+
+p::after {
+	
+	content : "_";
+	color : #333;
+	padding-right : 5px;
+	transition : all .5s;
+	
+	animation : BLINK .5s infinite;
+	
+}
+
+@keyFrames BLINK {
+	
+	0% {
+		
+		opacity : 0;
+		
+	}
+	
+	50% {
+		
+		opacity : 1;
+		
+	}
+	
+	100% {
+		
+		opacity : 0;
+		
+	}
+>>>>>>> new_branch
 	
 }
